@@ -2,6 +2,7 @@
 import { Trans, useTranslation } from 'react-i18next';
 import './App.css';
 import LanguageSelector from './components/LanguageSelector';
+import VoiceSearch from './components/voiceSearch/VoiceSearch';
 
 function App() {
   const {t}=useTranslation()
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="container">
+    <VoiceSearch />
     <LanguageSelector />
        <h1>{t("greeting")}</h1>
        {/* this Trans for Bold */}

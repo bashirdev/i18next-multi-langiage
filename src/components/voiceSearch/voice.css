@@ -1,0 +1,23 @@
+.voiceMOdal{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    width:100%;
+    margin:10px 0;
+}
+
+.voiceMOdal .input{
+    padding:15px;
+    border-radius:8px;
+    box-shadow:1px solid gray;
+}
+
+.product{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    margin:5px 0;
+}
